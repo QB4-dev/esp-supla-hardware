@@ -1,0 +1,44 @@
+ifndef::lang[:lang: pl]
+
+ifeval::["{lang}" == "pl"]
+== Konfiguracja płytki
+
+=== Informacje 
+
+NOTE: {device} może współpracować z czujnikami ruchu PIR podłączonymi do wejść *IN1* i *IN2*. Oba wejścia a także przycisk konfiguracyjny mają możliwość generowania zdarzeń: *ACTION TRIGGER* do których można przypisac reakcje w SUPLA-Cloud
+
+=== Parametry 
+
+Poniżej przedstawiono możliwe do ustawienia parametry płytki korzystając ze strony konfiguracyjnej i zakładki *BOARD*
+
+[cols="2,2,8a",options="header"]
+|===
+| Grupa | Identyfikator | Opis
+.2+| IN1 
+| ACTIVE LEVEL | Aktywny poziom sygnału z czujnika na wejściu *IN1*: +
+*LOW* - niski +
+*HIGH* -wysoki +
+| OFF DELAY  | Opóźnienie ściemnienia po zaniku sygnału na wejściu *IN1*
+.2+| IN2
+| ACTIVE LEVEL | Aktywny poziom sygnału z czujnika na wejściu *IN2*: +
+*LOW* - niski +
+*HIGH* -wysoki +
+| OFF DELAY  | Opóźnienie ściemnienia po zaniku sygnału na wejściu *IN2*
+.4+| REDUCE BRIGHTNESS
+| ENABLED    | Redukcja jasności włączona
+| BRIGHTNESS | maksymalna jasność w zadanym okresie
+| FROM       | początek okresu zredukowanej jasności
+| TO         | koniec okresu zredukowanej jasności
+.3+| PAUSE
+| ENABLED    | Pauza włączona - w zadanym okresie podświetlanie będzie nieaktywne
+| FROM       | początek okresu pauzy
+| TO         | koniec okresu pauzy
+|===
+
+<<<
+endif::[]
+
+ifeval::["{lang}" == "en"]
+
+<<<
+endif::[]

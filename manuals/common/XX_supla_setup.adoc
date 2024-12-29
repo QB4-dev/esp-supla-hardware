@@ -6,7 +6,7 @@ ifeval::["{lang}" == "pl"]
 
 . Zarejestruj się na https://cloud.supla.org (rejestracja jest bezpłatna)
 
-. W widoku *Moja SUPLA* włącz opcję *Dodawanie urządzeń aktywne*
+. W widoku *Moja SUPLA* włącz opcję *Rejestracja urządzeń AKTYWNA*
 +
 [SUPLA-Cloud dodawanie urządzeń]
 image::{module}/img/supla-cloud-add-devices.png[align="center",pdfwidth=100%]
@@ -20,30 +20,22 @@ image::{module}/img/supla-cloud-add-devices.png[align="center",pdfwidth=100%]
 . W zakładce *WiFi* wprowadź nazwę i hasło sieci WiFi przez, którą urządzenie uzyska dostęp do sieci Internet
 +
 [SUPLA-Cloud dodawanie urządzeń]
-image::{module}/img/supla-device-wifi.png[pdfwidth=65%]
-
+image::{module}/img/supla-device-wifi.png[pdfwidth=75%]
++
+WARNING: Po zapisaniu ustawień nie są wyświetlane hasła dostępowe w celu uniemożliwienia
+odczytania ich przez osoby niepowołane.
++
+<<<
++
 . W zakładce *SUPLA* wprowadź adres email konta SUPLA,oraz adres serwera
 +
 [SUPLA-Cloud parametry połączenia z serwerem]
-image::{module}/img/supla-device-supla.png[pdfwidth=65%]
+image::{module}/img/supla-device-supla.png[pdfwidth=75%]
 
-<<<
-
-[NOTE]
-====
 Nazwę serwera można odczytać po zalogowaniu do cloud.supla.org
 
 [SUPLA-Cloud parametry połączenia z serwerem]
 image::{module}/img/supla-cloud-credentials.png[align="center",pdfwidth=100%]
-====
-
-[WARNING]
-====
-- Do poprawnej pracy urządzenie wymaga dostępu do sieci Internet i połączenia z serwerem
-komunikacyjnym SUPLA-CLOUD
-- Po zapisaniu ustawień nie są wyświetlane hasła dostępowe w celu uniemożliwienia
-odczytania ich przez osoby niepowołane.
-====
 
 <<<
 endif::[]

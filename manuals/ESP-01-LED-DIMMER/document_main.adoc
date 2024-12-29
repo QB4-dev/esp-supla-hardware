@@ -24,5 +24,7 @@ include::00_technical_description.adoc[]
 :module: ../common
 include::../common/XX_supla_setup.adoc[]
 
+include::01_board_config.adoc[]
+
 
 

@@ -14,6 +14,20 @@ ifeval::["{lang}" == "pl"]
 2+| Domyślna konfiguracja interfejsu sieciowego poprzez DHCP
 |===
 
+=== Bezpieczeństwo
+
+CAUTION: {device} jest urządzeniem amatorskim typu DIY. Instalacja i użytkowanie wymagają przestrzegania zasad bezpieczeństwa elektrycznego, urządzenie może być wykorzystywane wyącznie do celów prywatnych
+
+WARNING: Urządzenie elektryczne po napięciem.
+Przed dokonaniem jakichkolwiek czynności
+związanych z zasilaniem (podłączanie przewodów,
+instalacja urządzenia itd.) należy upewnić się, że
+urządzenie jest odłączone od zasilania.
+Montażu powinna dokonać osoba posiadająca
+odpowiednie uprawnienia elektryczne
+
+<<<
+
 === Opis zacisków
 
 [{device} - widok ogólny]
