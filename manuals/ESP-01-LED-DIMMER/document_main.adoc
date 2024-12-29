@@ -6,7 +6,7 @@ ifeval::["{lang}" == "en"]
 = {device}: User manual
 endif::[]
 //to translate captions
-include::../adoc_common/locale/attributes-pl.adoc[]
+include::../adoc_common/locale/attributes.adoc[]
 // document attributes
 :title-page:
 :toc: macro
@@ -15,12 +15,14 @@ include::../adoc_common/locale/attributes-pl.adoc[]
 :revnumber: 1.0
 :icons: font
 
-//Table of contents
+//Table of contents 
 toc::[]
 
 include::00_technical_description.adoc[]
 
 //common
-:module: adoc_common
-:imagesdir:
+:module: ../common
+include::../common/XX_supla_setup.adoc[]
+
+
 

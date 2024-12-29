@@ -52,7 +52,61 @@ image::img/esp-dimmer.png[align="center",pdfwidth=75%]
 | click x1  | jasność +25%
 | hold > 3s | tryb konfiguracji
 |===
-
+<<<
 endif::[]
 
+ifeval::["{lang}" == "en"]
+== Technical Description
+
+=== General Information
+
+[cols="<1,>2s", grid="none"]
+|===
+| Power Supply | 12V/24V DC
+| Maximum Load | 3A
+2+| WiFi Module ESP8266 operating in 802.11 b/g/n standard at 2.4GHz frequency
+| Ports used for communication:| TCP 2015
+2+| Default network interface configuration via DHCP
+|===
+
+=== Terminal Description
+
+[{device} - General View]
+image::img/esp-dimmer.png[align="center",pdfwidth=75%]
+
+. Power Supply:
++
+[cols="1,4s",width=50%]
+|===
+| 2 | 12V/24V DC
+| 1 | GND
+|===
+
+. LED Output:
++
+[cols="1,4s",width=50%]
+|===
+| 1 | LED+
+| 2 | GND
+|===
+
+. Sensors:
++
+[cols="1,1,3s",width=50%]
+|===
+| 1 | 1 | +5V
+| 2 | 2 | IN1/IN2
+| 3 | 3 | GND
+|===
+
+. Configuration Button:
++
+[options="header",cols="1,3s",width=50%]
+|===
+| Event | Effect
+| click x1  | Brightness +25%
+| hold > 3s | Configuration mode
+|===
+
 <<<
+endif::[]
