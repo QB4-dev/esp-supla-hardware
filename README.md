@@ -1,2 +1,2 @@
-# esp-supla-hardware-
+# esp-supla-hardware
 My SUPLA compatible boards
