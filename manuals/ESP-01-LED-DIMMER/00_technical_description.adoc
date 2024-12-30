@@ -5,18 +5,20 @@ ifeval::["{lang}" == "pl"]
 
 === Informacje ogólne
 
-[cols="<1,>2s", grid="none"]
+[cols="<1,>2s"]
 |===
-| Zasilanie | 12V/24V DC
+| Zasilanie             | 12V/24V DC
 | Maksymalne obciążenie | 3A
-2+| Moduł WiFi ESP8266 pracujący w standardzie 802.11 b/g/n na częstotliwości 2.4Ghz
-| Porty używane do komunikacji:| TCP 2015
-2+| Domyślna konfiguracja interfejsu sieciowego poprzez DHCP
+| Wymiary               | 63mm x 16mm x 10mm
+| Moduł WiFi ESP8266    | standard 802.11 b/g/n 2.4Ghz
+| Domyślna konfiguracja adresu sieciowego | DHCP
+| Porty używane do komunikacji | TCP:2015
 |===
 
 === Bezpieczeństwo
 
-CAUTION: {device} jest urządzeniem amatorskim typu DIY. Instalacja i użytkowanie wymagają przestrzegania zasad bezpieczeństwa elektrycznego, urządzenie może być wykorzystywane wyącznie do celów prywatnych
+CAUTION: {device} jest urządzeniem amatorskim typu DIY.Instalacja i użytkowanie wymagają przestrzegania zasad bezpieczeństwa elektrycznego, urządzenie może być wykorzystywane wyącznie do celów prywatnych.
+Autor urządzenia nie ponosi odpowiedzialności za jego nieprawidłowe wykorzystywanie
 
 WARNING: Urządzenie elektryczne po napięciem.
 Przed dokonaniem jakichkolwiek czynności
@@ -49,7 +51,7 @@ image::img/esp-dimmer.png[align="center",pdfwidth=75%]
 | 2 | GND
 |===
 
-. Czujniki:
+. Wejścia czujników/przycisków:
 +
 [cols="1,1,3s",width=50%]
 |===
@@ -68,20 +70,31 @@ image::img/esp-dimmer.png[align="center",pdfwidth=75%]
 |===
 <<<
 endif::[]
-
 ifeval::["{lang}" == "en"]
 == Technical Description
 
 === General Information
 
-[cols="<1,>2s", grid="none"]
+[cols="<1,>2s"]
 |===
-| Power Supply | 12V/24V DC
-| Maximum Load | 3A
-2+| WiFi Module ESP8266 operating in 802.11 b/g/n standard at 2.4GHz frequency
-| Ports used for communication:| TCP 2015
-2+| Default network interface configuration via DHCP
+| Power Supply           | 12V/24V DC
+| Maximum Load           | 3A
+| Dimensions             | 63mm x 16mm x 10mm
+| WiFi Module ESP8266    | 802.11 b/g/n standard 2.4GHz
+| Default Network Address Configuration | DHCP
+| Ports used for communication | TCP:2015
 |===
+
+=== Safety
+
+CAUTION: {device} is an amateur DIY device. Installation and use require adherence to electrical safety rules. The device may only be used for private purposes.  
+The author of the device is not responsible for its improper use.
+
+WARNING: Electrical device under voltage.  
+Before performing any tasks related to power supply (connecting wires, installing the device, etc.), ensure that the device is disconnected from power.  
+Installation should be carried out by a person with appropriate electrical qualifications.
+
+<<<
 
 === Terminal Description
 
@@ -104,7 +117,7 @@ image::img/esp-dimmer.png[align="center",pdfwidth=75%]
 | 2 | GND
 |===
 
-. Sensors:
+. Sensor/Button Inputs:
 +
 [cols="1,1,3s",width=50%]
 |===
@@ -121,6 +134,5 @@ image::img/esp-dimmer.png[align="center",pdfwidth=75%]
 | click x1  | Brightness +25%
 | hold > 3s | Configuration mode
 |===
-
 <<<
 endif::[]

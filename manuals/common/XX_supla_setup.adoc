@@ -41,7 +41,40 @@ image::{module}/img/supla-cloud-credentials.png[align="center",pdfwidth=100%]
 endif::[]
 
 ifeval::["{lang}" == "en"]
-== SUPLA Cloud Connection
+== Connecting to SUPLA Cloud
+
+. Register at https://cloud.supla.org (registration is free)
+
+. In the *My SUPLA* view, enable the *Device Registration ACTIVE* option
++
+[SUPLA-Cloud adding devices]
+image::{module}/img/supla-cloud-add-devices.png[align="center",pdfwidth=100%]
+
+. Put the device into configuration mode by holding the *CONFIG* button for 3 seconds
+
+. Connect to the WiFi network named *SUPLA-{device}-XXXX* using any device with WiFi capability and a web browser
+
+. Open the device configuration page by navigating to http://192.168.4.1 in a web browser
+
+. In the *WiFi* tab, enter the name and password of the WiFi network through which the device will access the Internet
++
+[SUPLA-Cloud adding devices]
+image::{module}/img/supla-device-wifi.png[pdfwidth=75%]
++
+WARNING: After saving the settings, access passwords are not displayed to prevent unauthorized persons from reading them.
++
+<<<
++
+. In the *SUPLA* tab, enter the SUPLA account email address and the server address
++
+[SUPLA-Cloud server connection parameters]
+image::{module}/img/supla-device-supla.png[pdfwidth=75%]
+
+The server name can be found after logging in to cloud.supla.org
+
+[SUPLA-Cloud server connection parameters]
+image::{module}/img/supla-cloud-credentials.png[align="center",pdfwidth=100%]
 
 <<<
 endif::[]
+

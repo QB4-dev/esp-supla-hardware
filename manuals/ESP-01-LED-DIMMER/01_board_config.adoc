@@ -39,6 +39,39 @@ Poniżej przedstawiono możliwe do ustawienia parametry płytki korzystając ze 
 endif::[]
 
 ifeval::["{lang}" == "en"]
+== Board Configuration
+
+=== Information
+
+NOTE: {device} can work with PIR motion sensors connected to the *IN1* and *IN2* inputs. Both inputs, as well as the configuration button, can generate *ACTION TRIGGER* events that can be assigned reactions in SUPLA-Cloud.
+
+=== Parameters
+
+The table below lists the configurable parameters of the board available through the configuration page in the *BOARD* tab.
+
+[cols="2,2,8a",options="header"]
+|===
+| Group | Identifier | Description
+.2+| IN1 
+| ACTIVE LEVEL | Active signal level from the sensor on input *IN1*: +
+*LOW* - low +
+*HIGH* - high +
+| OFF DELAY  | Dim delay after the signal disappears on input *IN1*
+.2+| IN2
+| ACTIVE LEVEL | Active signal level from the sensor on input *IN2*: +
+*LOW* - low +
+*HIGH* - high +
+| OFF DELAY  | Dim delay after the signal disappears on input *IN2*
+.4+| REDUCE BRIGHTNESS
+| ENABLED    | Brightness reduction enabled
+| BRIGHTNESS | Maximum brightness during the specified period
+| FROM       | Start of the reduced brightness period
+| TO         | End of the reduced brightness period
+.3+| PAUSE
+| ENABLED    | Pause enabled - lighting will be inactive during the specified period
+| FROM       | Start of the pause period
+| TO         | End of the pause period
+|===
 
 <<<
 endif::[]
