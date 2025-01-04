@@ -72,6 +72,9 @@ NOTE: Tryb pracy: (RGBW/4xLED) oraz kolejność sygnałów RGBW można dostosowa
 | click x1  | jasność +25%
 | hold > 3s | tryb konfiguracji
 |===
++
+NOTE: Domyślny kolor ustawiany przy ręcznym załączeniu można dostosować w ustawieniach sterownika
+
 <<<
 endif::[]
 
@@ -143,5 +146,8 @@ NOTE: The operating mode (RGBW/4xLED) and the RGBW signals order can be adjusted
 | click x1  | Brightness +25%
 | hold > 3s | Configuration mode
 |===
+
+NOTE: Default color in manual switching can be adjusted in the driver settings.  
+
 <<<
 endif::[]
