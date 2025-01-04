@@ -1,0 +1,30 @@
+ifndef::lang[:lang: pl]
+ifeval::["{lang}" == "pl"]
+= {device}: Instrukcja użytkownika
+endif::[]
+ifeval::["{lang}" == "en"]
+= {device}: User manual
+endif::[]
+//to translate captions
+include::../adoc_common/locale/attributes.adoc[]
+// document attributes
+:title-page:
+:toc: macro
+:numbered:
+:author: Qb4-dev
+:revnumber: 1.0
+:icons: font
+
+//Table of contents 
+toc::[]
+
+include::00_technical_description.adoc[]
+
+//common
+:module: ../common
+include::../common/XX_supla_setup.adoc[]
+
+include::01_board_config.adoc[]
+
+
+

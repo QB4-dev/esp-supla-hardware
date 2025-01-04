@@ -1,0 +1,57 @@
+ifndef::lang[:lang: pl]
+
+ifeval::["{lang}" == "pl"]
+== Konfiguracja płytki
+
+=== Informacje 
+
+=== Parametry 
+
+Poniżej przedstawiono możliwe do ustawienia parametry płytki korzystając ze strony konfiguracyjnej i zakładki *BOARD*
+
+[cols="2,2,8a",options="header"]
+|===
+| Grupa | Identyfikator | Opis
+.1+| MODE 
+| OUTPUT | Tryb pracy wyjścia: +
+*COLOR* - sterowanie kolorem: RGBW +
+*4xDIMMER* - 4 x dimmer LED(pojedynczy kolor) +
+.2+| COLOR
+| COLOR MAP | Mapowanie sygnałów RGBW. Dostępne opcje: +
+*RGBW* +
+*GBRW* +
+*GRBW* +
+*GRWB* +
+| MANUAL COLOR  | kolor w trybie ręcznego załączania przyciskiem
+|===
+
+<<<
+endif::[]
+
+ifeval::["{lang}" == "en"]
+== Board Configuration
+
+=== Information 
+
+=== Parameters 
+
+The table below lists the configurable parameters of the board available through the configuration page in the *BOARD* tab.
+
+[cols="2,2,8a",options="header"]
+|===
+| Group | Identifier | Description
+.1+| MODE 
+| OUTPUT | Output operating mode: +
+*COLOR* - color control: RGBW +
+*4xDIMMER* - 4 x LED dimmer (single color) +
+.2+| COLOR
+| COLOR MAP | RGBW signal mapping. Available options: +
+*RGBW* +
+*GBRW* +
+*GRBW* +
+*GRWB* +
+| MANUAL COLOR  | Color in manual activation mode using a button
+|===
+
+<<<
+endif::[]
