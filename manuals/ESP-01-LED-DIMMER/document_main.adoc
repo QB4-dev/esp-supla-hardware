@@ -18,13 +18,14 @@ include::../adoc_common/locale/attributes.adoc[]
 //Table of contents 
 toc::[]
 
-include::00_technical_description.adoc[]
-
-//common
+//common modules setup
 :module: ../common
-include::../common/XX_supla_setup.adoc[]
 
+include::../common/safety_rules.adoc[]
+include::00_technical_description.adoc[]
+include::../common/supla_setup.adoc[]
 include::01_board_config.adoc[]
+
 
 
 
