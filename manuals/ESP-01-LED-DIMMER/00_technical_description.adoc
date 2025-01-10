@@ -17,7 +17,7 @@ ifeval::["{lang}" == "pl"]
 
 === Bezpieczeństwo
 
-CAUTION: {device} jest urządzeniem amatorskim typu DIY.Instalacja i użytkowanie wymagają przestrzegania zasad bezpieczeństwa elektrycznego, urządzenie może być wykorzystywane wyącznie do celów prywatnych.
+CAUTION: {device} jest urządzeniem amatorskim typu DIY.Instalacja i użytkowanie wymagają przestrzegania zasad bezpieczeństwa elektrycznego, urządzenie może być wykorzystywane wyłącznie do celów prywatnych.
 Autor urządzenia nie ponosi odpowiedzialności za jego nieprawidłowe wykorzystywanie
 
 WARNING: Urządzenie elektryczne po napięciem.
